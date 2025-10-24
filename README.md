@@ -1,4 +1,4 @@
-
+```
 
 
 Commit Types:
@@ -110,7 +110,7 @@ git reset --hard origin/main                                                    
 git pull origin main --allow-unrelated-histories                                           # Merge two unrelated repositories
 
 
-
+```
 
 
     
