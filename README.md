@@ -1,4 +1,4 @@
-
+```
 
 
 Commit Types:
@@ -109,7 +109,7 @@ git fetch origin && git rebase origin/main                                      
 git reset --hard origin/main                                                               # Discard local changes and reset
 git pull origin main --allow-unrelated-histories                                           # Merge two unrelated repositories
 
-
+```
 
 
 
