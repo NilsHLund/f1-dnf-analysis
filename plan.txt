@@ -1,0 +1,33 @@
+Team #41
+Trying to predict weather f1 drivers finished or not a race. 
+Binary classification
+Loaded data. 
+
+
+10K samples
+31 features
+18 features are categorical. Trying to use one hot encoding (perfect)
+Clean data...
+Some categorical features have as many as 12. (brand name)
+
+others less than 10. 
+Since feature looks at end result directly (even though, some datapoints have zero AND finished race), highly recommend to get rid of it. 
+Feature is a result of the prediction/or an after the fact data. 
+
+if times allows, do 2-5 models with this points feature, but wont be considered a models. 
+
+
+Narrative:
++ Car manufactorers can be interested in this since they could find the factors that influence if they finish or not
++ Betting markets and such predictions. 
+
+Performance metrics
++ Binary classification problem.
+Choose one accordingly, make sure to prioritize your goal:
+Accuracy, Presicion, recall, f1, fbeta, Custom metrics as well.
+Models
+Binary classification  Total models: ~85 models. 
++ Logistic regression (include feature selection AND lazzo regularization 30 models)
++ Random Forests ( for feature selection) (#number trees, threshold amount, etc). 15 models. 
++ Neural networks (architecture, #layers, #nodes, activation functions, so on) 30 models. 
++ SVM changing parameters (10 models, changing number of features, and or uncertainty).
